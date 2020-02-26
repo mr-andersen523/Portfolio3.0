@@ -4,6 +4,10 @@ $("#arrow-button").click(function() {
     }, 1000);
 });
 
+//resume button
+document.getElementById("resume").onclick = function () {
+    location.href = "/assets/pdf/Profile.pdf";
+};
 
 // function animateCSS(element, animationName, callback) {
 //     const node = document.querySelector(element)
