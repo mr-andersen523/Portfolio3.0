@@ -9,7 +9,6 @@
         <script src="./assets/uikit/js/uikit-icons.min.js"></script>
         <script src="https://kit.fontawesome.com/eb2106c888.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-        <script src="script.js"></script>
     </head>
 
     <header>
@@ -41,31 +40,32 @@
 
 
 <body>
-    <div class="uk-text-center uk-margin-medium-top uk-margin-small-bottom">
-        <img class="uk-margin-left uk-text-center" src="./assets/images/me-wave-green.png"  alt="">
-        <h2 style="font-family: noway"> <span >Hi, my name is </span><span style="color: rgb(185, 50, 50)">Chase Andersen</span></h2>
-        <h4 class="uk-margin-small-top" style="font-family: noway">I'm a Full Stack Developer with a knack for Front-End and Design</h4>
+    <div class="uk-text-center">
+        <img class="uk-text-center uk-margin-medium-top" src="./assets/images/me-wave-green.png"  alt="">
+        <h2 class="uk-margin" style="font-family: noway"> <span >Hi, my name is </span><span style="color: rgb(185, 50, 50)">Chase Andersen</span></h2>
+        <h4 class="uk-margin" style="font-family: noway">I'm a Full Stack Developer with a knack for Front-End and Design</h4>
+        <h5 class="uk-margin" style="font-family: noway">Resume <a href="resume-portfolio.pdf">here!</a></h5>
     </div>
          
-        <div class= "uk-text-center uk-margin-medium-top uk-margin-small-bottom" id="scroll-div" class="uk-margin-large-top  ">
-            <h5 style="font-family: noway">Click here to see my portfolio!</h5>
-            <a href="" class="uk-icon-link" uk-icon="icon: arrow-down; ratio: 2"></a>
+        <div class= "uk-text-center uk-margin id="scroll-div" class="uk-margin-large-top  ">
+            <h5 class="uk-margin"style="font-family: noway">Click here to see my portfolio!</h5>
+            <a href="#portfolio" id="arrow-button" class="uk-icon-link uk-margin-xsmall" uk-icon="icon: arrow-down; ratio: 2"></a>
         </div>
         
 
     </div>
 
- 
-          <div class="row uk-margin-remove-top">
+        <div class="row uk-margin-remove">
             <div>
-              <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep12" viewBox="0 0 1600 200" style="display: block;" data-height="200">
-          <polygon class="" style="fill: rgb(255, 255, 255);" points="-4,24 800,198 1604,24 1604,204 -4,204 "></polygon> 
-          <polygon class="" style="opacity: 1;fill: #95a5a6;" points="-4,0 800,198 1604,0 1604,11.833 800,198 -4,12 "></polygon> 
-          <polygon class="" style="opacity: 1;fill: #d2d7d3;" points="-4,12 -4,24 800,198 1604,24 1604,11.833 800,198 "></polygon></svg>
+                <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep12" viewBox="0 0 1600 200" style="display: block;" data-height="200">
+                    <polygon class="" style="fill: rgb(255, 255, 255);" points="-4,24 800,198 1604,24 1604,204 -4,204 "></polygon> 
+                    <polygon class="" style="opacity: 1;fill: #95a5a6;" points="-4,0 800,198 1604,0 1604,11.833 800,198 -4,12 "></polygon> 
+                    <polygon class="" style="opacity: 1;fill: #d2d7d3;" points="-4,12 -4,24 800,198 1604,24 1604,11.833 800,198 "></polygon></svg>
             </div>
+        </div>
 
         
-        <div class="uk-text-center uk-padding-large uk-margin-xlarge">
+        <div class="uk-text-center uk-padding-large uk-margin-xlarge" id="portfolio">
             <h2 class="uk-margin-medium-bottom" style="font-family: noway"> My Work </h2>
         
 
@@ -105,13 +105,35 @@
 
                             <div class="uk-text-center">
                                     <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                                        <img src="./assets/images/ptr.png" alt="">
-                                        <div class="uk-transition-fade uk-position-cover  uk-overlay uk-overlay-primary  uk-flex-center uk-flex-middle uk-padding uk-margin-remove" style="background-color: rgb(80,80,80);">
-                                            <p class="uk-h4 uk-margin-remove uk-width-1-1" style="font-family: noway">Pass the Remote is a fun and easy-to-use web app that gives you a semi-randomized movie or TV series recommendation based on your responses to a short series of questions meant to narrow down the list of possible suggestions.</p>
-                                            <p> <button class=" uk-button-small uk-button-primary uk-border-pill uk-margin-to" href="#">View</button></p>
+                                        <img class="uk-border-pill" src="./assets/images/sun-cloud.png" width="477px" height="260px" alt="">
+                                        <div class="uk-transition-fade uk-position-cover  uk-border-pill uk-overlay uk-overlay-primary  uk-flex-center uk-flex-middle uk-padding uk-margin-remove" style="background-color: rgb(80,80,80);">
+                                            <p class="uk-h4 uk-margin-remove uk-width-1-1 uk-text-small" style="font-family: noway">Weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities.</p>
+                                            <p> <button class=" uk-button-small uk-button-primary uk-border-pill uk-margin-to" href="https://github.com/mr-andersen523/homework6">View</button></p>
                                         </div>
                                     </div>
-                                    <p class="uk-margin-small-top">Pass the Remote</p>
+                                    <p class="uk-margin-small-top">Weather App</p>
+                            </div>
+
+                            <div class="uk-text-center">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-border-pill" src="./assets/images/note.png" width="477px" height="260px" alt="">
+                                        <div class="uk-transition-fade uk-position-cover  uk-border-pill uk-overlay uk-overlay-primary  uk-flex-center uk-flex-middle uk-padding uk-margin-remove" style="background-color: rgb(80,80,80);">
+                                            <p class="uk-h4 uk-margin-remove uk-width-1-1 uk-text-small" style="font-family: noway">For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.</p>
+                                            <p> <button class=" uk-button-small uk-button-primary uk-border-pill uk-margin-to" href="https://limitless-scrubland-31066.herokuapp.com/">View</button></p>
+                                        </div>
+                                    </div>
+                                    <p class="uk-margin-small-top">Note-Taking App</p>
+                            </div>
+
+                            <div class="uk-text-center">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-border-pill" src="./assets/images/calendar.png" width="477px" height="260px" alt="">
+                                        <div class="uk-transition-fade uk-position-cover  uk-border-pill uk-overlay uk-overlay-primary  uk-flex-center uk-flex-middle uk-padding uk-margin-remove" style="background-color: rgb(80,80,80);">
+                                            <p class="uk-h4 uk-margin-remove uk-width-1-1 uk-text-small" style="font-family: noway">Created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
+                                            <p> <button class=" uk-button-small uk-button-primary uk-border-pill uk-margin-to" href="https://github.com/mr-andersen523/homework5">View</button></p>
+                                        </div>
+                                    </div>
+                                    <p class="uk-margin-small-top">Day Calendar</p>
                             </div>
 
 
@@ -124,7 +146,7 @@
         <div class="uk-text-center"><a href="#" uk-totop uk-scroll ></a></div>
 
 
-</body>
+
 
 
 
@@ -178,6 +200,9 @@
 
 
 
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="script.js"></script>
 
 
 
