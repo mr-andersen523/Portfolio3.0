@@ -28,7 +28,35 @@
                                             <a href="https://github.com/mr-andersen523" class="uk-icon-button uk-button-default uk-margin-medium-right" uk-icon="github" style="color:white"></a>
                                             <a href="https://dribbble.com/mr-andersen523" class="uk-icon-button uk-margin-medium-right" uk-icon="dribbble" style="background-color:rgb(230,70,133); color:white"></a>
                                             <a href="https://codepen.io/mr-andersen523" class="uk-icon-button uk-margin-medium-right fab fa-codepen" style="display: inline-flex" ></a>
-                                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="mail" style="background-color: gold; color:white"></a>
+                                            <a href="#send-message" class="uk-icon-button uk-margin-small-right" uk-toggle uk-icon="mail" style="background-color: gold; color:white"></a>
+
+<!-- send email modal -->
+<div id="send-message" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title" style="font-family: noway">Send Message</h2>
+        </div>
+        <div class="uk-modal-body">
+                <form>
+                        <fieldset class="uk-fieldset">
+                    
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Email">
+                            </div>
+                    
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
+                            </div>
+                    
+                        </fieldset>
+                    </form>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+            <button class="uk-button uk-button-primary" type="button">Send</button>
+        </div>
+    </div>
+</div>
                                 </div>
                                     </ul>
                                 </div>
@@ -146,6 +174,9 @@
         <div class="uk-text-center"><a href="#" uk-totop uk-scroll ></a></div>
 
 
+        
+
+
 
 
 
@@ -187,7 +218,7 @@
                         <a href="https://github.com/mr-andersen523" class="uk-icon-button uk-button-default uk-margin-small-right" uk-icon="github" style="color:white"></a>
                         <a href="https://dribbble.com/mr-andersen523" class="uk-icon-button uk-margin-small-right" uk-icon="dribbble" style="background-color:rgb(230,70,133); color:white"></a>
                         <a href="https://codepen.io/mr-andersen523" class="uk-icon-button uk-margin-small-right fab fa-codepen" style="display: inline-flex" ></a>
-                        <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="mail" style="background-color: gold; color:white"></a>
+                        <a href="#send-message" class="uk-icon-button uk-margin-small-right" uk-toggle uk-icon="mail" style="background-color: gold; color:white"></a>
                     </div>
                 </div>
 
